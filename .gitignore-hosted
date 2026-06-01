@@ -1,0 +1,17 @@
+# Files excluded from the open source repository
+# These exist only on the hosted deployment at duskfall.falcontechnix.com
+
+# Hosted module (billing, PayPal, admin panel, TOTP)
+backend/app/hosted/
+
+# Hosted frontend (landing page, Squirtle admin panel)
+web-client/src/hosted/
+
+# Civil unrest collector (premium feature)
+backend/app/services/civil_unrest.py
+
+# Admin tooling
+scripts/create-admin.py
+
+# Version file (hosted version may differ)
+version.json
